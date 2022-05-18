@@ -373,24 +373,18 @@
         <span class="section__subtitle">My qualification journey</span>
 
         <div class="qualification__container container">
-            <div class="qualification__tabs">
-              
-                <div  class="qualification__button button--flex btn" data-target='#eduaction' id="education">
-                  <i class="uil uil-graduation-cap qualification__icon"></i>
-                  Eduaction
-                </div>
-                
-                <div class="qualification__button button--flex " data-target='#work' id="work">
-                  <i class="uil uil-bag-alt qualification__icon"></i>
-                  Work
-                </div>
-
-            </div>
-
+            
 
             <div class="qualification__sections" >
                   <!-- ================QUALIFICATION  content 1   education======================== -->
-                    <div class="qualification__content qualification__active" data-content id="education">
+                  <div class="qualification__tabs">
+                    <div  class="qualification__button button--flex btn" data-target='#eduaction' id="education">
+                      <i class="uil uil-graduation-cap qualification__icon"></i>
+                      Eduaction
+                    </div>
+                  </div>
+                    
+                  <div class="qualification__content qualification__active" data-content id="education">
                       <!-- ================QUALIFICATION  1======================== -->
                         <div class="qualification__data">
                           <div>
@@ -450,11 +444,19 @@
                             
                         </div>
 
-                    </div>                
+                  </div> 
+
                   
                   
                   <!-- ================QUALIFICATION  content 2   work======================== -->
                   
+                  <div class="qualification__tabs">
+                  <div class="qualification__button button--flex " data-target='#work' id="work">
+                    <i class="uil uil-bag-alt qualification__icon"></i>
+                    Work
+                  </div>
+                  </div>
+
                       <div class="qualification__content " data-content id="work">
                           <!-- ================QUALIFICATION  1======================== -->                                        
                           
@@ -537,7 +539,10 @@
               <h3 class="projects__title">Personal Portfolio Website</h3>
             </div>
 
-            span.button.button
+            <span class="button button--flex button--small button--link projects__button">
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
         </div>
 
       </div>
