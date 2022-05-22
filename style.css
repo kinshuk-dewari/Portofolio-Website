@@ -358,8 +358,8 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 1rem;
-  border-radius: .5rem;
+  padding: .5rem;
+  border-radius: 1.2rem;
   font-weight: var(--font-medium);
 }
 
