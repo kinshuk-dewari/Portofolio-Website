@@ -983,8 +983,8 @@ button{
   }
 
 
-  .home__socials{
-    transform: translateX(-85rem);
+  .home__social{
+    transform: translateX(-105rem);
   }
   
 }
