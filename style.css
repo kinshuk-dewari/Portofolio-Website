@@ -550,8 +550,7 @@ img {
 
 .qualification__button{
   font-size: var(--h3-font-size);
-  font-weight:var(--font-medium);
-  cursor: pointer;
+  font-weight:var(--font-medium);  
 }
 
 .qualification__button:hover{
